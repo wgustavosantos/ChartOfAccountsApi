@@ -1,0 +1,62 @@
+## Build
+bin/
+obj/
+out/
+
+## Rider
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET
+wwwroot/lib/
+
+## Test results
+TestResults/
+*.trx
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Resharper / Rider cache
+_ReSharper*/
+*.DotSettings.user
+
+## VS Code (caso use junto)
+.vscode/
+
+## Environment variables
+.env
+
+## Publish
+publish/
+
+## SQLite
+*.db
+*.db-shm
+*.db-wal
+
+## Coverage
+coverage/
+*.coverage
+*.coveragexml
