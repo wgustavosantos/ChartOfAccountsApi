@@ -1,4 +1,4 @@
-using ChartOfAccountsApi.Domain.Models.DTOs;
+using ChartOfAccountsApi.Adapters.InboundAdapters.RestAdapters.DTOs;
 using ChartOfAccountsApi.Domain.Ports.InBound;
 using ChartOfAccountsApi.Domain.Ports.OutBound;
 using ChartOfAccountsApi.Domain.UseCases;

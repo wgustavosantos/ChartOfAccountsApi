@@ -1,5 +1,5 @@
-﻿using ChartOfAccountsApi.Domain.Models;
-using ChartOfAccountsApi.Domain.Models.DTOs;
+﻿using ChartOfAccountsApi.Adapters.InboundAdapters.RestAdapters.DTOs;
+using ChartOfAccountsApi.Domain.Models;
 using ChartOfAccountsApi.Domain.Ports.InBound;
 using ChartOfAccountsApi.Domain.Ports.OutBound;
 
@@ -26,7 +26,7 @@ public class AccountUseCase : IAccountInBound
         return accountDtos ;
     }
     
-    public async Task AddAccount(AccountDto account)
+    public async Task AddAccount(Account account)
     {
         var newAccount = new Account
         {

@@ -1,4 +1,4 @@
-﻿namespace ChartOfAccountsApi.Domain.Models.DTOs;
+﻿namespace ChartOfAccountsApi.Adapters.InboundAdapters.RestAdapters.DTOs;
 
 public record AccountDto(
     int Id,
